@@ -195,3 +195,9 @@ body {
 		left: 45%;
 	}
 }
+
+@media (min-width: 1440px) {
+	.advice__card {
+		max-width: 540px;
+	}
+}
