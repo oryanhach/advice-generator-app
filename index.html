@@ -8,17 +8,36 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" href="style.css">
 
+  <title>Frontend Mentor | Advice generator app</title>
 
 </head>
 
 <body>
 
-  Advice #<!-- Advice ID goes here -->
+  <main>
 
-  "<!-- Advice text goes here -->"
+    <section class="advice__card">
+      <h1 class="card__header">
+        Advice #<span class="header__num">114</span>
+      </h1>
+      <p class="advice">
+        "temporary advice, will change with the api"
+      </p>
+      <picture class="advice__divider">
+        <source media="(max-width: 370px)" srcset="images/pattern-divider-mobile.svg">
+        <source media="(min-width: 770px)" srcset="images/pattern-divider-desktop.svg">
+        <img src="images/pattern-divider-desktop.svg" alt="divider illustration">
+      </picture>
+      <button class="advice__btn" aria-label="Get new advice">
+        <img src="images/icon-dice.svg" alt="dice illustration">
+      </button>
+    </section>
 
+  </main>
+
+  <script src="app.js"></script>
 
 </body>
 
