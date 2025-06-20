@@ -169,3 +169,29 @@ body {
 .advice__btn:active img {
 	transform: scale(0.965);
 }
+
+@media (min-width: 770px) {
+	body {
+		padding: 0 7rem;
+	}
+
+	.advice__card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 3rem 3rem;
+	}
+
+	.advice {
+		font-size: var(--fs-big);
+	}
+
+	.advice__divider {
+		margin-bottom: 1.5rem;
+	}
+
+	.advice__btn {
+		left: 45%;
+	}
+}
